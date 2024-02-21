@@ -1,15 +1,39 @@
-#defined a list 
+# DEFINE A LIST
 my_list = [1,2,3,4,5]
 
-#find the sum of all the elements in the list
+
+
+
+#FIND THE SUM OF ALL THE ELEMENTS IN THE LIST
 
 sum_of_elements = sum(my_list)
 
 print("Sum of all elements in the list:", sum_of_elements)
 
 
-# find the largest number in the list
+
+
+# FIND THE LARGEST NUMBER IN THE LIST 
 
 largest_number= max(my_list)
 
 print("largest number in the list:", largest_number)
+
+
+
+
+#FIND WHETHER THE NUMBER IS EVEN OR ODD
+
+num = input()
+if (num % 2) == 0:
+   print (num is even)
+else:
+   print (num is odd)
+
+# example
+num= (44)
+if (num % 2) == 0:
+   print ("given number is even")
+else:
+    print ("given number is odd")
+
