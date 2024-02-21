@@ -1,6 +1,10 @@
 # DEFINE A LIST
+#integer
+
 my_list = [1,2,3,4,5]
 
+#string list
+my_list_string = [apple, ball, cat, dog]
 
 
 
